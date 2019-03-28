@@ -41,7 +41,7 @@ function getRecipe(id) {
 
 function addRecipe(recipe) {
   return db("recipes")
-    .instert(recipe)
+    .insert(recipe)
     .then(id => {
       return getRecipe(id[0]);
     });
