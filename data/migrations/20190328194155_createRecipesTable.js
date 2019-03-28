@@ -3,7 +3,7 @@ exports.up = function (knex, Promise) {
         table.increments();
         table.string('name').notNullable();
         table.integer('dish_id').unsigned();
-        table.foreign('dish_id').references('id').on('dishes')
+        table.foreign('dish_id').references('id').on('dish')
     })
   };
   
