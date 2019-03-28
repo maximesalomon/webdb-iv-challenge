@@ -1,7 +1,7 @@
 {
   "name": "webdb-iv-challenge",
   "version": "1.0.0",
-  "description": "## Topics",
+  "description": "Lambda School Restaurant - Maxime Salomon",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/maximesalomon/webdb-iv-challenge.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Maxime Salomon <maxime@croissant.io>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/maximesalomon/webdb-iv-challenge/issues"
